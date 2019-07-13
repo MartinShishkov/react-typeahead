@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "title": "Once Upon a Time In The West",
+        "description": "",
+        "rating": 7,
+        "imageUrl": "",
+        "releaseDate": ""
+    },
+    {
+        "id": 2,
+        "title": "Harry Potter",
+        "description": "",
+        "rating": 7,
+        "imageUrl": "",
+        "releaseDate": ""
+    },
+    {
+        "id": 3,
+        "title": "The Lord of The Rings",
+        "description": "",
+        "rating": 7,
+        "imageUrl": "",
+        "releaseDate": ""
+    },
+    {
+        "id": 4,
+        "title": "Lord of War",
+        "description": "",
+        "rating": 7,
+        "imageUrl": "",
+        "releaseDate": ""
+    }
+]

@@ -1,4 +1,4 @@
- export const MockDB = [
+ const MockDB = [
     {
         id: 1,
         title: "Once Upon a Time In The West",
@@ -31,4 +31,6 @@
         imageUrl: "./img/low.jpg",
         releaseDate: "18 November 2005"
     }
-]
+];
+
+export default MockDB;

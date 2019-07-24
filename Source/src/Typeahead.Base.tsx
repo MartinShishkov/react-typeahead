@@ -14,7 +14,7 @@ export interface TypeaheadBaseProps {
     onChange: Function
 }
 
-export default class TypeaheadBase extends React.Component<TypeaheadBaseProps, {}>{
+export default class TypeaheadBase extends React.PureComponent<TypeaheadBaseProps>{
     private readonly TYPEAHEAD_ASYNC_REQUEST_EVENT: string = "typeahead:asyncrequest";
     private readonly TYPEAHEAD_ASYNC_CANCEL_EVENT: string = "typeahead:asynccancel";
     private readonly TYPEAHEAD_ASYNC_RECEIVE_EVENT: string = "typeahead:asyncreceive";

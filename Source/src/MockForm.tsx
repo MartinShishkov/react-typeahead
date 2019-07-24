@@ -1,6 +1,6 @@
-import * as React from 'react'
+import * as React from 'react';
 import TypeaheadMovieSuggestions from './Typeahead.MovieSuggestions';
-import { MockDB } from './MockMovieDb';
+import MockDB from './MockMovieDb';
 import MoviesDataProviderLocal from './MoviesDataProvider.Local';
 import MoviesDataProviderRemote from './MoviesDataProvider.Remote';
 
@@ -20,8 +20,7 @@ export default class MockForm extends React.Component<{}, IMockFormState> {
     private readonly handleValueChange = ({target}): void => {
         this.setState({
             selectedMovie: target.value.title
-        })
-        console.log(target);
+        });
     };
 
     private readonly handleOnSubmitClick = (): void => {

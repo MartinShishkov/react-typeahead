@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { renderToString } from 'react-dom/server';
 import TypeaheadBase from './Typeahead.Base';
-import { SuggestionTemplate } from './SuggestionTemplate';
+import SuggestionTemplate from './SuggestionTemplate';
 import BaseDataProvider from './MoviesDataProvider.Base';
 
 export interface ITypeaheadMovieSuggestionsProps {
@@ -11,7 +11,8 @@ export interface ITypeaheadMovieSuggestionsProps {
     dataProvider: BaseDataProvider
 }
 
-export default class TypeaheadMovieSuggestions extends React.Component<ITypeaheadMovieSuggestionsProps, {}> {
+export default class TypeaheadMovieSuggestions extends 
+    React.Component<ITypeaheadMovieSuggestionsProps, {}> {
     constructor(props){
         super(props);
     }

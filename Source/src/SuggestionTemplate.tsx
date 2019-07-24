@@ -5,7 +5,7 @@ export interface ISuggestionTemplateProps{
     data: IMovie
 }
 
-export const SuggestionTemplate: React.FC<ISuggestionTemplateProps> = (props) => {
+const SuggestionTemplate: React.FC<ISuggestionTemplateProps> = (props) => {
     return (
         <div style={{borderBottom: "1px solid gainsboro", paddingTop: "10px"}}>
             <table style={{width: "100%"}}>
@@ -36,3 +36,5 @@ export const SuggestionTemplate: React.FC<ISuggestionTemplateProps> = (props) =>
         </div>
     );
 };
+
+export default SuggestionTemplate;

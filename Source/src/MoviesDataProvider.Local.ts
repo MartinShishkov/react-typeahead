@@ -1,4 +1,4 @@
-import { MockDB } from "./MockMovieDb";
+import MockDB from "./MockMovieDb";
 import IMovie from './IMovie';
 import BaseDataProvider from './MoviesDataProvider.Base';
 
